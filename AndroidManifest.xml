@@ -1,0 +1,113 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.weibo.share"
+          android:versionCode="2"
+          android:versionName="1.2">
+
+    <uses-sdk
+            android:minSdkVersion="14"
+            android:targetSdkVersion="15"/>
+
+    <application
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name="com.weibo.weilibrary.SplashActivity"
+                android:label="微图书馆">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.weibo.weilibrary.LoginActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.weibo.weilibrary.LoginActivity"/>
+
+                <category android:name="com.weibo.weilibrary.LoginActivityCategory"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.weibo.weilibrary.HomeActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.weibo.weilibrary.HomeActivity"/>
+
+                <category android:name="com.weibo.weilibrary.HomeActivityCategory"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.weibo.weilibrary.UserListActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.weibo.weilibrary.UserListActivity"/>
+
+                <category android:name="com.weibo.weilibrary.UserListActivityCategory"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.weibo.weilibrary.UserActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.weibo.weilibrary.UserActivity"/>
+
+                <category android:name="com.weibo.weilibrary.UserActivityCategory"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.weibo.weilibrary.BookListActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.weibo.weilibrary.BookListActivity"/>
+
+                <category android:name="com.weibo.weilibrary.BookListActivityCategory"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.weibo.weilibrary.BookActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.weibo.weilibrary.BookActivity"/>
+
+                <category android:name="com.weibo.weilibrary.BookActivityCategory"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.weibo.weilibrary.NewBookActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.weibo.weilibrary.NewBookActivity"/>
+
+                <category android:name="com.weibo.weilibrary.NewBookActivityCategory"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+                android:value="4ddc7840431fe30f33000004"
+                android:name="UMENG_APPKEY"/>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <!--     <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" /> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

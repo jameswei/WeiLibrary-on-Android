@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:columnCount="1"
+        android:rowCount="8"
+        tools:context="com.weibo.weilibrary.LoginActivity">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_username"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/hint_username"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/login_password"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/hint_password"/>
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:id="@+id/login"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:textSize="28dp"/>
+
+
+</GridLayout>

@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">微图书馆</string>
+    <string name="app_ver">Ver1.0</string>
+    <string name="app_detail">\@快滚到锅里来</string>
+    
+    <string name="network_error">网络连接失败</string>
+
+    <string name="weibo_share">分享</string>
+    <string name="username">用户名</string>
+    <string name="email">邮箱</string>
+    <string name="bio">简介</string>
+    <string name="tag">标签</string>
+    <string name="booksnum">booksnum</string>
+    <string name="allusers">所有用户</string>
+    <string name="allbooks">所有图书</string>
+    <string name="login">登录</string>
+    <string name="password">密码</string>
+    <string name="hint_username">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_weak">Password is too weak</string>
+    <string name="own">拥有书: {booksnum} 本</string>
+    <string name="borrowed">借书: {booksnum} 本</string>
+    <string name="bookname">书名: {bookname}</string>
+    <string name="description">简介: {description}</string>
+    <string name="status">是否可借? {status}</string>
+    <string name="owner">主人: {owner}</string>
+    <string name="occupant">借阅人: {occupant}</string>
+    <string name="borrow">{status}</string>
+    <string name="addbook">添加图书</string>
+    <string name="hint_bookname">图书名称</string>
+    <string name="hint_tags">图书标签</string>
+    <string name="hint_description">图书描述</string>
+    <string name="关于">关于</string>
+</resources>
